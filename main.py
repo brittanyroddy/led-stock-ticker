@@ -16,7 +16,7 @@ from version import __version__
 
 
 def main():
-    print(f'\U0001F4CA LED-Stock-Ticker - v{__version__} ({matrix.width}x{matrix.height})')
+    # print(f'\U0001F4CA LED-Stock-Ticker - v{__version__} ({matrix.width}x{matrix.height})')
     config = MatrixConfig(matrix.width, matrix.height)
     Loading(matrix, canvas, draw, config)
     data = Data(config)

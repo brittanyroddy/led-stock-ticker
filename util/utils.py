@@ -8,7 +8,7 @@ from io import BytesIO
 from typing import Tuple, List
 
 import requests
-from PIL import Image, ImageFont, UnidentifiedImageError
+from PIL import Image, ImageFont, ImageSequence
 from rgbmatrix import RGBMatrixOptions
 from requests import Timeout, RequestException, ConnectionError
 

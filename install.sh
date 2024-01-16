@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 # Description: Install LED-Stock-Ticker (github.com/feram18/led-stock-ticker)
 
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
